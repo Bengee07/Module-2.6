@@ -32,12 +32,21 @@ The following policy types, listed in order from most frequently used to less fr
 
 ---
 
-## Part 2 - Insert Summary
+## Part 2 - Example of Permission and Policies
 
-Insert Instructions
+- Allows access during a specific range of dates.
+- Allows enabling and disabling AWS Regions.
+- Allows MFA-authenticated users to manage their own credentials on the My Security Credentials page.
+- Allows specific access when using MFA during a specific range of dates.
+- Allows users to manage their own credentials on the My Security Credentials page.
+- Allows users to manage their own MFA device on the My Security Credentials page.
+- Allows users to manage their own password on the My Security Credentials page.
+- Allows users to manage their own password, access keys, and SSH public keys on the My Security Credentials page.
+- Denies access to AWS based on the requested Region.
+- Denies access to AWS based on the source IP address.
 
 ---
 
-## Part 3 - Insert Summary
+## Part 3 - Group Discussion
 
 Insert Instructions
