@@ -10,10 +10,12 @@ Refer to the following markdown file for the respective sections of the class:
 ## Lesson Objectives
 
 Learners will understand:
-- Insert the knowledge to be acquired
+- What is Permission and Policies
+- What are the type of permission and policies
 
 Learners will be able to:
-- Insert the skillset to be acquired
+- understand and create different role/ user for different permission and policies
+- create permission and policies on AWS
 
 
 ## Lesson Plan
