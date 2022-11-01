@@ -30,6 +30,21 @@ The following policy types, listed in order from most frequently used to less fr
 - Access control lists (ACLs) – Use ACLs to control which principals in other accounts can access the resource to which the ACL is attached. ACLs are similar to resource-based policies, although they are the only policy type that does not use the JSON policy document structure. ACLs are cross-account permissions policies that grant permissions to the specified principal. ACLs cannot grant permissions to entities within the same account.
 - Session policies – Pass advanced session policies when you use the AWS CLI or AWS API to assume a role or a federated user. Session policies limit the permissions that the role or user's identity-based policies grant to the session. Session policies limit permissions for a created session, but do not grant permissions. For more information, see Session Policies.
 
+
+### Activity - Define all the user/ level/ application on your company
+
+You or your group have discussed a specific case or business. Now let's list down all the users in your business, before we determine the policy they will get.
+
+Example:
+- HR
+- Procuremnet Team
+- C-Level
+- Marketing Team
+- Application to access your database
+- Marketing Application to send marketing email
+
+
+
 ---
 
 ## Part 2 - Example of Permission and Policies
@@ -73,6 +88,31 @@ You can create role session and pass session policies programmatically using the
 
 A resource-based policy can specify the ARN of the user or role as a principal. In that case, the permissions from the resource-based policy are added to the role or user's identity-based policy before the session is created. The session policy limits the total permissions granted by the resource-based policy and the identity-based policy. The resulting session's permissions are the intersection of the session policies and the resource-based policies plus the intersection of the session policies and identity-based policies.
 
+
+
+### Activity - Determine Policy for all the user/ level/ application on your company
+
+You or your group have discussed a specific case or business. Now let's list down all the users in your business, before we determine the policy they will get.
+
+Example:
+- HR
+- Procuremnet Team
+- C-Level
+- Marketing Team
+- Application to access your database
+- Marketing Application to send marketing email
+
+|User/ Apps/ Role| Policy |
+|-|-|
+|HR|Policy? Answer here|
+|Procurement Team|Policy? Answer here|
+|..........|Policy? Answer here|
+|..........|Policy? Answer here|
+|..........|Policy? Answer here|
+|..........|Policy? Answer here|
+|..........|Policy? Answer here|
+
+
 ---
 
 ## Part 3 - Example of Permission and Policies
@@ -93,13 +133,5 @@ A resource-based policy can specify the ARN of the user or role as a principal. 
 ## Part 4 - Group Discussion
 
 - Create Permission and Policies on AWS S3 Bucket or AWS MySQL
-
-
----
-
-## Part 5 - Group Discussion
-
-Given all the permission and policies type, choose one of the type then discuss with your teammates then share it with other team.
-
 
 ---
