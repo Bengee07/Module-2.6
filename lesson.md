@@ -134,7 +134,7 @@ Example:
 
 - On previous chapter, you already learned about MySQL, NoSQL database. 
 - If you already create those databases, create a new one.
-- Create new Permission and Policies on AWS S3 Bucket or AWS MySQL
-- Try to access the database using the new role you created.
+- Create new Permission and Policies on AWS S3 Bucket or AWS MySQL. You may create this together with your group member.
+- Share the new role to other team member then other team member try to access the database using the new role created.
 
 ---
