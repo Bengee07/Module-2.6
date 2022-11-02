@@ -132,6 +132,9 @@ Example:
 
 ## Part 4 - Group Discussion
 
-- Create Permission and Policies on AWS S3 Bucket or AWS MySQL
+- On previous chapter, you already learned about MySQL, NoSQL database. 
+- If you already create those databases, create a new one.
+- Create new Permission and Policies on AWS S3 Bucket or AWS MySQL
+- Try to access the database using the new role you created.
 
 ---
