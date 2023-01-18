@@ -21,13 +21,6 @@ Deliverables:
 - A report summarizing your experience with IAM.
 
 
-Individual Assignment
-
-- Create a new role on AWS Console
-- Create a new group role on AWS Console
-
-
-
 ### Submission 
 
 - Submit the URL of the GitHub Repository that contains your work to NTU black board.
